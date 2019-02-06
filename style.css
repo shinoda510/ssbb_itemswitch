@@ -1,0 +1,27 @@
+body{
+    background-color: snow;
+    position: relative; 
+}
+
+#item_area{
+    margin: auto;
+    width: 80vw;
+    height: 90vh;
+    background-color: red;
+}
+
+.line{
+    margin-bottom: 1%;
+    height: 10%;
+    background-color: skyblue;
+    border-bottom-color: black;
+}
+
+.btn{
+    display: inline-block;
+    height: 98%;
+    width: 13%;
+    background-image: url(img/on/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
