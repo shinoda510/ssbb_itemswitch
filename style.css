@@ -1,19 +1,21 @@
 body{
+    background-image: url(img/all.png);
+    background-size: contain;
     background-color: snow;
-    position: relative; 
 }
 
 #item_area{
     margin: auto;
+    margin-top: 10%;
     width: 80vw;
-    height: 90vh;
-    background-color: red;
+    height: 80vh;
+    /*background-color: red;*/
 }
 
 .line{
     margin-bottom: 1%;
     height: 10%;
-    background-color: skyblue;
+    /*background-color: skyblue;*/
     border-bottom-color: black;
 }
 
@@ -24,4 +26,9 @@ body{
     background-image: url(img/on/1.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.non_active{
+    visibility: hidden;
+    
 }
