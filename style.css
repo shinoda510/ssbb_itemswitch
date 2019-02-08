@@ -42,6 +42,9 @@ body{
 }
 
 .switch{
-    font-size: large;
-    border: solid 3px red;
+    display: inline-block;
+    height: 98%;
+    width: 26%;
+    background-color: snow;
+    border-radius: 10px;
 }
