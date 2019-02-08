@@ -47,4 +47,8 @@ body{
     width: 26%;
     background-color: snow;
     border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    border: solid 3px red;
 }
