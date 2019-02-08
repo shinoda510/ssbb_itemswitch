@@ -45,10 +45,12 @@ body{
     display: inline-block;
     height: 98%;
     width: 26%;
-    background-color: snow;
+    background-color: grey;
     border-radius: 10px;
     text-align: center;
-    font-size: 30px;
-    font-family: cursive;
+    font-size: 80px;
+    color: snow;
+    text-shadow: darkgray;
+    font-family: monospace;
     border: solid 3px red;
 }
