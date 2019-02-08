@@ -1,7 +1,15 @@
 body{
+    margin: 0;
+    padding: 0;
+}
+
+.main_contents{
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(img/all.png);
     background-size: contain;
     background-color: snow;
+    background-repeat: no-repeat;
 }
 
 #item_area{
