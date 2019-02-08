@@ -33,7 +33,7 @@ body{
     background-image: url(img/on/1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .non_active{
@@ -48,7 +48,7 @@ body{
     background-color: grey;
     border-radius: 10px;
     text-align: center;
-    font-size: 55px;
+    font-size: 50px;
     color: snow;
     text-shadow: darkgray;
     font-family: monospace;
