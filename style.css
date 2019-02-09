@@ -20,22 +20,26 @@ body{
 .line{
     margin-bottom: 1%;
     height: 10%;
-    border-bottom-color: black;
+    text-align: center;
 }
 
 .btn{
     display: inline-block;
     height: 98%;
-    width: 13%;
+    width: 13.1%;
     background-image: url(img/on/1.png);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
 
+.btn.top{
+    display: none;
+}
+
 .non_active{
     visibility: hidden;
-    
 }
 
 .switch{
@@ -56,7 +60,7 @@ body{
     visibility: hidden;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1080px){
 #item_area{
     margin: 5vh auto 0 auto;
     width: 100vw;
@@ -68,6 +72,11 @@ body{
     /*background-color: skyblue;*/
 }
 .switch{
+    display: none;
+}
+
+.btn.top{
+    display: inline-block;
     visibility: hidden;
 }
 
