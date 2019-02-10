@@ -246,6 +246,8 @@ body{
 }
 #setting_view{
     height: 70vh;
+    position: absolute;
+    top: 10vh;
 }
 
 .setting_save{
