@@ -142,7 +142,6 @@ img{
 .setting_item_img{
     width: 40%;
     height: 100%;
-    background-image: url(img/small/1.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
