@@ -41,7 +41,6 @@ img{
     display: inline-block;
     height: 98%;
     width: 13.1%;
-    background-image: url(img/on/1.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -156,7 +155,7 @@ img{
     bottom: 0;
     width: 30%;
     height: 80%;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     margin-right: 0%;
     font-family: sans-serif;
@@ -243,14 +242,16 @@ body{
 
 #setting_btn_area{
     position: absolute;
-    bottom: 25vh;
+    bottom: 23vh;
     right: 5vw;
+}
+#setting_view{
+    height: 70vh;
 }
 
 .setting_save{
     height:8%;
-    margin-top: 3%;
-    
+    margin-top: 1%;
 }
 .save_btn{
     width: 60vw;
