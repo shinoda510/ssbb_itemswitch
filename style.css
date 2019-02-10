@@ -245,9 +245,9 @@ body{
     right: 5vw;
 }
 #setting_view{
-    height: 70vh;
+    height: 90%;
     position: absolute;
-    top: 5vh;
+    top: 10%;
 }
 
 .setting_save{
