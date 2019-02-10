@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(230,230,230);
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
 }
 
@@ -80,7 +80,7 @@ img{
 
 #setting_btn_area{
     position: absolute;
-    bottom: 5vh;
+    bottom: 25vh;
     right: 5vw;
 }
 .setting_btn{
@@ -103,7 +103,7 @@ img{
     bottom: 0;
     margin: auto;
     width: 90vw;
-    height: 90vh;
+    height: 70vh;
     border: solid 3px grey;
 }
 
