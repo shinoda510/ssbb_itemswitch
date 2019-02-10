@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(230,230,230);
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -80,7 +80,7 @@ img{
 
 #setting_btn_area{
     position: absolute;
-    bottom: 25vh;
+    bottom: 5vh;
     right: 5vw;
 }
 .setting_btn{
@@ -103,7 +103,7 @@ img{
     bottom: 0;
     margin: auto;
     width: 90vw;
-    height: 70vh;
+    height: 90vh;
     border: solid 3px grey;
 }
 
@@ -155,7 +155,7 @@ img{
     right: 14%;
     bottom: 0;
     width: 30%;
-    height: 60%;
+    height: 80%;
     font-size: 30px;
     display: inline-block;
     margin-right: 0%;
@@ -175,13 +175,13 @@ img{
 }
 .save_btn{
     width: 60vw;
-    height: 60%;
+    height: 100%;
     margin: 0 auto;
     background-color: grey;
     color: white;
     text-align: center;
     font-size: 30px;
-    line-height: 100%;
+    line-height: 150%;
     border-radius: 10px;
 }
 .save_btn:active{
@@ -190,6 +190,9 @@ img{
     
 }
 @media screen and (max-width: 780px){
+body{
+    height: 80vh;
+}
 #item_area{
     margin: 0 auto 0 auto;
     width: 100vw;
@@ -225,6 +228,7 @@ img{
     display: block;
     margin-top: 100px;
 }
+
 .random_switch{
     width: 80vw;
     height: 10vh;
@@ -237,17 +241,31 @@ img{
     border-radius: 10px;
 }
 
-}
-@media screen and (max-width: 355px){
-.line{
-    margin-bottom: 1%;
-    height: 12%;
-    text-align: center;
+#setting_btn_area{
+    position: absolute;
+    bottom: 25vh;
+    right: 5vw;
 }
 
-.item{
-    position: relative;
-    width: 12%;
-}
+.setting_save{
+    height:8%;
+    margin-top: 3%;
     
+}
+.save_btn{
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 150%;
+    border-radius: 10px;
+}
+
+.setting_item_input{
+    height: 60%;
+}
+
 }
