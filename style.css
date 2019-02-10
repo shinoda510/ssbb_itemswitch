@@ -175,13 +175,13 @@ img{
 }
 .save_btn{
     width: 60vw;
-    height: 80%;
+    height: 60%;
     margin: 0 auto;
     background-color: grey;
     color: white;
     text-align: center;
     font-size: 30px;
-    line-height: 120%;
+    line-height: 100%;
     border-radius: 10px;
 }
 .save_btn:active{
