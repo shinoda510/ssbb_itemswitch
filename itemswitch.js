@@ -18,9 +18,9 @@ $(function(){
         var truth_box = make_random_array();
         drow_item(truth_box);
         console.log("x: "+x);
-        if(x>99){
-            $(".omake").fadeIn(1000);
-            $(".omake").fadeOut(1000);
+        if(x>49){
+            $(".omake").fadeIn(2000);
+            $(".omake").fadeOut(2000);
         }
     });
     
