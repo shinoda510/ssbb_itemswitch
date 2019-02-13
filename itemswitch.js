@@ -2,7 +2,6 @@
 /*global localStorage*/
 
 $(function(){
-    var x = 0;
     for(var i = 1; i < 50; i++){
         $(".num"+i).css("background-image","url(img/off/"+i+".png)");
     }
@@ -14,14 +13,8 @@ $(function(){
     set_setting_random();
 
     $('.random_switch').click(function(){
-        x++;
         var truth_box = make_random_array();
         drow_item(truth_box);
-        if(x>49){
-            $(".omake").fadeIn(2000);
-            $(".omake").fadeOut(2000);
-            x=0;
-        }
     });
     
     $('.setting_btn').click(function(){
